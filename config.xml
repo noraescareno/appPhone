@@ -13,6 +13,7 @@
     <plugin name="cordova-plugin-geolocation" source="npm" />
     <plugin name="cordova-plugin-android-permissions" />
     <plugin name="cordova-plugin-camera" spec="4.0.2" />
+    <plugin name="cordova-plugin-whitelist" version="1"/>
 
     <content src="index.html" />
     <access origin="*" />
