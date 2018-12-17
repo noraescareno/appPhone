@@ -156,7 +156,7 @@ $(function(){
     });
 
     function subirImagen(fileURL) {
-            
+            alert('subirImagen');
         var options = new FileUploadOptions();
         options.fileKey = "file";
         options.fileName = fileURL.substr(fileURL.lastIndexOf('/') + 1);
